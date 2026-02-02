@@ -117,7 +117,7 @@ def grade():
         g = secrets.choice(['-3', '00', '02', '4', '7', '10']) # nobody gets a 12 in my course
         # create the message and UTF-8 encode it into bytes
         msg = f'You get a only get a {g} in Systems Security. I am very disappointed by you.'.encode()
-        # sign the message
+        # encrypt the message
         ciphertext = encrypt(msg)
         # serialize message and ciphertext into a JSON object; for the byte
         # strings we use hexadecimal encoding
