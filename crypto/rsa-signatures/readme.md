@@ -10,7 +10,7 @@ is quite lazy and does not want to be bothered by students, he/she provides
 another API to sign any paperwork except grades.
 
 Your task is to obtain a signed message stating you got a 12, so that you can
-receive a quote.  To this end, you can use the given API and the malleability
+receive a quote (as in a CTF flag).  To this end, you can use the given API and the malleability
 properties of plain, textbook RSA.
 
 To get started with the task, you can host a local version on your own machine (see below).
